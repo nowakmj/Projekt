@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html lang="pl">
+		<head>
+			<title>Bistro&Bar</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="icon" type="image/png" href="icon.png">
+			<meta charset="UTF-8">
+		</head>
+			<body>
+				<header>
+					<a href="index.html"><h1 id="naglowek">Bistro&Bar</h1></a>
+						<ul>
+							<a href="index.html" class="aktywna"><li>STRONA GŁÓWNA</li></a>
+							<a href="menu.html"><li>MENU</li></a>
+							<a href="kontakt.html"><li>KONTAKT</li></a>
+							<a href="zamow.html"><li>DOSTAWA</li></a>
+							<a href="galeria.html"><li>GALERIA</li></a>
+						</ul>				
+				</header>
+					<main>
+					<article>
+						<img src="tlo.jpg" id="srodek">
+						<h1>Co oferujemy?</h1>
+						<div id="galeria">
+						<div id="karaoke">
+						<p>Wieczory karaoke</p>
+						<hr>
+						<img src="karaoke.jpeg" style="height:200px; width:300px;">
+						<hr>
+						</div>
+						<div id="wesele">
+						<p>Wesela</p>
+						<hr>
+						<img src="wesele.jpg" style="height:200px; width:300px;">
+						<hr>
+						</div>		
+						<div id="sylwester">
+						<p>Imprezy sylwestrowe</p>
+						<hr>
+						<img src="sylw.jpg" style="height:200px; width:300px;">
+						<hr>
+						</div>
+						</div>
+						</article>
+					</main>
+					
+				<footer id="glowna" style="text-align:center">
+<br>
+<br>				
+					<div id="rezerwacje" style="text-align:center">Rezerwacje</div>
+										<ul>
+					<li>Poniedziałek - Piątek: 11:00-23:00</li>
+					<li>Sobota - Niedziela: 13:00-21:00</li>
+					</ul>
+						<form  style="width:20%; text-align:center;">
+							<fieldset style="border: 2px yellow dashed">
+							<p>Podaj datę: <input type="date">
+							<p>Podaj godzinę: <input type="time">
+							<p>Ilość miejsc: <input type="number" max="6">
+							<br>
+							<br>
+							<button onclick="mojaFunkcja()">Zarezerwuj</button>
+						</fieldset>		
+						</form>
+				</footer>
+				<br>
+										
+										<script>
+											function mojaFunkcja() {
+												alert("Dziękujemy za rezerwację");
+												}
+												</script>
+			</body>
+	</html>

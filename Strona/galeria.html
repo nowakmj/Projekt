@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+	<html lang="pl">
+		<head>
+		<title>Galeria</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="icon" type="image/png" href="icon.png">
+			<meta charset="UTF-8">
+		</head>
+			<body>
+				<header>
+					<a href="index.html"><h1 id="naglowek">Bistro&Bar</h1></a>
+						<ul>
+							<a href="index.html"><li>STRONA GŁÓWNA</li></a>
+							<a href="menu.html"><li>MENU</li></a>
+							<a href="kontakt.html"><li>KONTAKT</li></a>
+							<a href="zamow.html"><li>DOSTAWA</li></a>
+							<a href="galeria.html" class="aktywna"><li>GALERIA</li></a>
+						</ul>
+							
+				</header>
+					<main>			
+						<article>
+						<style>
+#zoom {
+  transition: transform .2s;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#zoom:hover {
+  transform: scale(1.5);
+}
+</style>
+
+							<a href="galeria/gal1.jpg" target="_blank"><img src="galeria/gal1.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal2.jpg" target="_blank"><img src="galeria/gal2.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal3.jpg" target="_blank"><img src="galeria/gal3.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal4.jpg" target="_blank"><img src="galeria/gal4.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal5.jpg" target="_blank"><img src="galeria/gal5.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal6.jpg" target="_blank"><img src="galeria/gal6.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal7.jpg" target="_blank"><img src="galeria/gal7.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal8.jpg" target="_blank"><img src="galeria/gal8.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal9.jpg" target="_blank"><img src="galeria/gal9.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							<a href="galeria/gal10.jpg" target="_blank"><img src="galeria/gal10.jpg" style="height:200px; width:300px; border:2px yellow dashed;" id="zoom"></a>
+							
+						
+						</article>
+			
+					
+					</main>
+					
+				<footer id="glowna">
+<br>
+<br>				
+					<div id="rezerwacje" style="text-align:center">Rezerwacje</div>
+										<ul>
+					<li>Poniedziałek - Piątek: 11:00-23:00</li>
+					<li>Sobota - Niedziela: 13:00-21:00</li>
+					</ul>
+						<form style="width:20%; text-align:center;">
+							<fieldset style="border: 2px yellow dashed">
+							<p>Podaj datę: <input type="date">
+							<p>Podaj godzinę: <input type="time">
+							<p>Ilość miejsc: <input type="number" max="6">
+							<br>
+							<br>
+							<button onclick="mojaFunkcja()">Zarezerwuj</button>
+						</fieldset>		
+						</form>
+				</footer>
+				<br>
+										<script>
+											function mojaFunkcja() {
+												alert("Dziękujemy za rezerwację");
+												}
+												</script>
+			</body>
+	
+	
+	
+	
+	
+	</html>
+	
+	

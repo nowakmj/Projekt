@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<html lang="pl">
+		<head>
+		<title>Menu</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="icon" type="image/png" href="icon.png">
+			<meta charset="UTF-8">
+		</head>
+			<body>
+				<header>
+					<a href="index.html"><h1 id="naglowek">Bistro&Bar</h1></a>
+						<ul>
+							<a href="index.html"><li>STRONA GŁÓWNA</li></a>
+							<a href="menu.html" class="aktywna"><li>MENU</li></a>
+							<a href="kontakt.html"><li>KONTAKT</li></a>
+							<a href="zamow.html"><li>DOSTAWA</li></a>
+							<a href="galeria.html"><li>GALERIA</li></a>
+						</ul>
+							
+				</header>
+					<main>			
+						<article>
+						<h1 id="menu">MENU</h1>
+							<table id="menuu" border="2px white">
+							<th style="font-size:30px; color:black">PRZYSTAWKI</th><th style="font-size:30px; color:black">DANIE GŁÓWNE</th>
+							<tr><td>PIECZYWO CZOSNKOWE&nbsp;&nbsp; 7 zł</td><td>FILET Z GRILLA&nbsp;&nbsp;&nbsp; 13 zł</td></tr>
+							<tr><td>PIECZYWO CZOSNKOWE Z SEREM &nbsp;&nbsp; 8 zł</td><td>KOTLET PO KOWALSKU &nbsp;&nbsp;&nbsp; 15 zł</td></tr>
+							<tr><td>KRĄŻKI CEBULOWE&nbsp;&nbsp;&nbsp; 11 zł</td><td>KOTLET SCHABOWY&nbsp;&nbsp;&nbsp; 13 zł</td></tr>
+							<tr><td>SPAGHETTI BOLOGNESE&nbsp;&nbsp;&nbsp;22 zł</td><td>KOTLET DEVOLAILLE&nbsp;&nbsp;&nbsp;14 zł</td></tr>
+							<tr><td>FRYTKI&nbsp;&nbsp;6 ZŁ</td><td>KURCZAK BURGER&nbsp;&nbsp;&nbsp; 23 zł</td></tr>
+							<tr><td>FRYTKI Z BATATÓW 9 zł</td><td>CLASSIC BURGER&nbsp;&nbsp;&nbsp; 14 zł</td></tr>
+							<tr><td  rowspan="4">KREWETKI W CIEŚCIE + PALUSZKI RYBNE&nbsp;&nbsp;&nbsp;32 zł</td><td>PODWÓJNY CLASSIC BURGER&nbsp;&nbsp;&nbsp; 24 zł</td></tr>
+							<tr><td>PIZZA MARGHARITA&nbsp;&nbsp;&nbsp;17 zł </td></tr>
+							<tr><td>PIZZA KRÓLEWSKA&nbsp;&nbsp;&nbsp;30 zł</td></tr>
+							<tr><td>PIZZA MARGHARITA&nbsp;&nbsp;&nbsp;17 zł</td></tr>
+							<th style="font-size:30px;color:black">NAPOJE</th><th style="font-size:30px; color:black">DESERY</th>
+							<tr><td>COCA-COLA 0.5L   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;6 zł</td><td>SERNIK - sos czekoladowy/wiśnie &nbsp;&nbsp;15 zł</td></tr>
+							<tr><td>PEPSI 0.5L &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  6 zł</td><td>LODY WANILIOWE &nbsp;&nbsp;&nbsp;&nbsp;16 zł</td></tr>
+							<tr><td>SPRITE 0.5L &nbsp; &nbsp; &nbsp; 4 zł</td><td>CZEKOLADA MROŻONA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7 zł</td></tr>
+							<tr><td>FANTA 0.5L &nbsp; &nbsp; &nbsp; 4 zł</td><td rowspan="3">CZEKOLADA NA GORĄCO Z LODAMI I BITĄ ŚMIETANĄ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 zł</td></tr>
+							<tr><td>WODA 1L &nbsp; &nbsp; &nbsp; 3 zł</td></tr>
+							<tr><td>HERBATA 0.25L &nbsp; &nbsp; &nbsp; 5 zł</td></tr>
+							</table>
+							<br>
+							<br>
+						</article>			
+					</main>
+<footer id="glowna">
+<br>
+<br>				
+					<div id="rezerwacje" style="text-align:center">Rezerwacje</div>
+										<ul>
+					<li>Poniedziałek - Piątek: 11:00-23:00</li>
+					<li>Sobota - Niedziela: 13:00-21:00</li>
+					</ul>
+						<form style="width:20%; text-align:center;">
+							<fieldset style="border: 2px yellow dashed">
+							<p>Podaj datę: <input type="date">
+							<p>Podaj godzinę: <input type="time">
+							<p>Ilość miejsc: <input type="number" max="6">
+							<br>
+							<br>
+							<button onclick="mojaFunkcja()">Zarezerwuj</button>
+						</fieldset>		
+						</form>
+				</footer>
+				<br>
+										
+										<script>
+											function mojaFunkcja() {
+												alert("Dziękujemy za rezerwację");
+												}
+												</script>
+			</body>
+	
+	
+	
+	
+	
+	</html>

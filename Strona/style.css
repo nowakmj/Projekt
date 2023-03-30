@@ -1,0 +1,156 @@
+body {
+height:100%;
+color:white;
+font-family:Verdana;
+background-color:black;
+border:1px solid white;
+
+}
+@media handheld {
+	body {
+color:yellow;
+background-color:blue;
+
+	}
+}
+header {
+	height:20%;
+}
+
+#naglowek {
+	font-size:500%;
+	color:white;
+	text-align:center;
+	text-decoration:overline;
+}
+
+main {
+		margin:0 auto;
+	float:left;
+	padding-top:50px;
+	text-align:center;
+	width:100%;
+	border-top:1px solid white;
+	height:60%;
+}
+
+
+footer {
+		overflow:hidden;
+		height:20%;
+		width:100%;
+}
+    ul {
+		width:90%;
+		display:table;
+		margin:0 auto;
+		padding-bottom:10px;
+		text-align:center;
+		text-decoration:none;
+		list-style-type:none;
+		overflow:hidden;
+	}
+li {
+	padding:14px 16px;
+	float:left;
+}
+
+a {
+	font-size:150%;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+
+
+a:hover {
+	color:#EAD9A4;
+}
+
+ul li {
+	display:inline-block;
+	float:none;
+}
+
+#srodek {
+	border:2px dashed yellow;
+}
+
+#karaoke {
+	margin-right:10%;
+	float:left;
+}
+#wesele {
+	margin-right:10%;
+	float:left;
+	
+}
+#sylwester {
+	float:left;
+	
+
+}
+
+.aktywna {
+	color:yellow;
+}
+
+#menuu {
+	border:10px solid yellow;
+	color:black;
+	background-image:url('menu.png');
+	text-align:left;
+	margin:0 auto;
+}
+
+#menu {
+	font-family:Verdana;
+	font-size:50px;
+}
+
+th {
+	padding:20px;
+}
+
+
+
+#rezerwacje {
+	text-align:center;
+	font-size:200%;
+	
+}
+#galeria {
+	margin-left:17%;
+	width:80%;
+}
+
+form {
+	margin-left:40%;
+	float:left;
+}
+
+#dol {
+	margin-left:35%;
+}
+#kontakt {
+	margin:0 auto;
+}
+#tk {
+	width:100%;
+	text-align:center;
+	background-color:black;
+	border:2px yellow dashed;
+}
+
+#pad {
+	padding:5px;
+}
+
+#tl {
+	float:left;
+	background-color:black;
+	border:2px yellow dashed;
+}
+
+#kontaktowa {
+}
